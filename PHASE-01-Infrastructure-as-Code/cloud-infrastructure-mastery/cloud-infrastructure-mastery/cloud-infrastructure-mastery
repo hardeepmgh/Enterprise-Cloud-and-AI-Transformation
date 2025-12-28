@@ -1,11 +1,18 @@
-# Phase 1: Cloud Infrastructure & Networking
+# Cloud Infrastructure Mastery: Foundation & Networking
 
-This folder serves as the technical foundation for the 6-month roadmap. It documents the transition from manual infrastructure management to automated, code-driven deployments.
+This workspace contains the foundational networking and compute infrastructure for the 6-month transformation roadmap. 
 
-## 📂 Sub-Folders
-- **/01-Architecture-Designs**: Visual maps of the network.
-- **/02-Manual-Baseline-Labs**: Documentation of manual AWS builds.
-- **/03-Terraform-Landing-Zone**: Automated Infrastructure as Code.
+## 🎯 Objectives
+- Build a secure, multi-tier VPC manually to understand AWS core networking.
+- Migrate the manual setup into **Terraform (IaC)** for repeatable deployments.
+- Implement Enterprise-grade security (IAM, Security Groups, and NACLs).
 
-## 🎯 Current Focus
-Implementing a highly available, multi-tier VPC on AWS to host enterprise applications.
+## 📂 Folder Contents
+- `/01-Architecture-Designs`: Visual diagrams of the network topology.
+- `/02-Manual-Baseline-Labs`: Documentation of the manual AWS Console builds.
+- `/03-Terraform-Landing-Zone`: Production-ready IaC scripts.
+
+## 🛠️ Tech Stack
+- **Cloud:** AWS (VPC, Subnets, IGW, NAT Gateway)
+- **Security:** IAM Roles, Security Groups
+- **Automation:** Terraform
