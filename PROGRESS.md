@@ -20,3 +20,4 @@ This log tracks the dual-path journey of mastering Platform Engineering and Exec
 
 ---
 *Last Updated: January 4, 2026*
+<img width="1601" height="293" alt="VPC Resource Map" src="https://github.com/user-attachments/assets/399b1a3a-f97e-448b-8d11-3814225ee9db" />
