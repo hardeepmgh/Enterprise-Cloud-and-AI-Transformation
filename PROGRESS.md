@@ -5,8 +5,8 @@
 
 | Week | Day | Technical Milestone | Executive Win | Confidence |
 | :--- | :--- | :--- | :--- | :--- |
-| **01** | 01 | VPC Foundation & Multi-AZ Strategy | Published Strategic Project Roadmap | 9/10 |
-| **01** | 02 | IAM Identity Roles & Security Baseline | Recorded "Security-as-an-Enabler" Briefing | [X]/10 |
+| **01** | 01 | VPC Foundation & Multi-AZ Strategy | Published Strategic Project Roadmap | 5/10 |
+| **01** | 02 | IAM Identity Roles & Security Baseline | Recorded "Security-as-an-Enabler" Briefing | 5/10 |
 | **01** | 03 | *Upcoming: S3 Data Sovereignty* | *Upcoming: Compliance & Privacy Briefing* | - |
 
 ## 🧠 Strategic Learning Summaries
