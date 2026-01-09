@@ -1,15 +1,27 @@
+# Project: Secure Enterprise IT Assistant
+
 | Week | Day | Technical Milestone | Executive Win | Confidence |
 | :--- | :--- | :--- | :--- | :--- |
-| **01** | 01 | VPC Foundation & Multi-AZ Strategy | Published Strategic Project Roadmap | 5/10 |
-| **01** | 02 | IAM Identity Roles & Security Baseline | Recorded "Security-as-an-Enabler" Briefing | [5]/10 |
-| **01** | 03 | **S3 Data Vault & Bedrock Sovereignty** | **Recorded "Compliance & Privacy" Briefing** | **[6]/10** |
+| **01** | 01 | VPC Foundation & Multi-AZ Strategy | Published Strategic Project Roadmap | 9/10 |
+| **01** | 02 | IAM Identity Roles & Security Baseline | Recorded "Security-as-an-Enabler" Briefing | 9/10 |
+| **01** | 03 | S3 Data Vault & Bedrock Sovereignty | Engineered Proprietary Data Protection | 9/10 |
+| **01** | 04 | IAM Hardening & Root Migration | Eliminated Critical Root-User Vulnerability | 8/10 |
+| **01** | 05 | **RAG Integration & Intelligence Sync** | **Achieved "Grounded" AI Logic & Citations** | **10/10** |
 
-## 🧠 Strategic Learning Summaries
+---
 
-### Week 1: Building the Secure Foundation
+## 🧠 Strategic Learning Summaries: Week 1
 
-* **Day 03 (Data Sovereignty):** Engineered an encrypted S3 Knowledge Base with "Block Public Access" and Versioning. 
-    * *Director Insight:* We have ensured that our company's "ground truth" data is encrypted at rest and in transit. By choosing Amazon Bedrock over public APIs, we've guaranteed that our intellectual property is never used to train public models, maintaining a closed-loop ecosystem.
+### The Secure Foundation
+This week focused on the "Three Pillars" of Enterprise AI: **Security, Sovereignty, and Accuracy.**
 
-**Analogy of the Week:** "The VPC is our building, IAM is the badge, and S3 is the bank vault inside. Even if someone got into the building, the vault is locked and encrypted. We aren't just storing data; we are protecting our competitive advantage."
+* **Security (IAM):** Successfully transitioned from Root access to a "Least Privilege" Admin structure. This ensures the account is production-ready and audit-compliant.
+* **Sovereignty (S3):** Established an encrypted Knowledge Repository. By utilizing Amazon Bedrock, we've ensured our data is never used to train public models.
+* **Accuracy (RAG):** Deployed a Retrieval-Augmented Generation (RAG) pipeline. The AI now retrieves specific data from our S3 vault to answer queries, citing sources and eliminating "hallucinations."
 
+### Technical Hurdles & Resolutions
+* **Issue:** Bedrock logging validation errors in the AWS Console.
+* **Status:** Knowledge Base is 100% functional and providing grounded answers. CloudWatch log group established; final service-linked role handshake in QA.
+* **Resolution:** Prioritized "Core Logic" delivery over "Observability UI" to maintain project momentum for Week 2.
+
+**Analogy of the Week:** "We’ve built the vault, secured the library, and trained the librarian. The AI no longer guesses; it reads, verifies, and reports."
