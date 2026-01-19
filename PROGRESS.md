@@ -1,32 +1,14 @@
-# Executive Progress & Technical Transformation Log
+## 🧠 Weekly Learning Summaries (Continued)
 
-This log tracks the dual-path journey of mastering Platform Engineering and Agentic AI Leadership. It serves as a transparent record of technical proficiency and strategic growth.
+### Week 2: The Data Layer & State Governance
+* **Tech Focus:** Provisioning a private Amazon RDS (PostgreSQL) instance. Successfully navigated a "Default VPC" conflict by implementing an **Explicit Subnet Group** and **Dependency Mapping** (`depends_on`).
+* **Leadership Focus:** High-Availability (HA) Design & Data Isolation. Shifting from "default configurations" to "explicit governance" to ensure security baselines.
+* **Analogy of the Week:** "Setting up RDS is like installing a vault inside our building. We don't just put it in the lobby (Public Subnet); we place it in a secured room (Private Subnet) and explicitly define who has the key (Security Groups)."
 
-## 📈 The Director's Scorecard
-*Weekly self-assessment on a scale of 1-10.*
-
-| Week | Technical Milestone | Executive Win (Visibility/Communication) | Confidence Score |
+| Day | Technical Milestone | Executive Win | Status |
 | :--- | :--- | :--- | :--- |
-| **01** | VPC Foundation & Multi-AZ Strategy | Published Strategic Project Roadmap & RAG Proof-of-Concept | 9/10 |
-| **02** | Terraform Automation & State Governance | Established Enterprise "Source of Truth" via Remote Backend | 9/10 (Ongoing) |
-| **03** | S3 Data Sovereignty & IAM Hardening | *[Pending]* | -- |
+| **07** | Automated VPC Deployment | Standardized Networking Fabric | ✅ Complete |
+| **08** | Private RDS Tiering | Data Sovereignty & Tiered Security | ✅ Complete |
 
-## 🧠 Weekly Learning Summaries
-
-### Week 1: Infrastructure & AI Foundations
-* **Tech Focus:** Hand-building a Multi-AZ VPC to host the "IT Knowledge Assistant." Achieved 10/10 confidence in **RAG (Retrieval-Augmented Generation)** logic.
-* **Leadership Focus:** Translating "Networking" into "Data Sovereignty and Risk Mitigation."
-* **Analogy of the Week:** "Building the VPC is like setting the foundation of a skyscraper; it's the invisible work that determines how high we can go."
-
-### Week 2: Industrialization via Infrastructure as Code (IaC)
-* **Tech Focus:** Migrating manual clicks to **Terraform**. Implementing S3 for Remote State and DynamoDB for State Locking to ensure environment stability.
-* **Leadership Focus:** Shifting from "Manual Toil" to "Scalable Automation." Focus on **Auditability** and **Repeatability** as core business values.
-* **Analogy of the Week:** "Terraform is the 'Recipe' for our data center. In an emergency, we don't look for the chef; we just run the code to get the exact same meal every time."
-Week,Technical Milestone,Executive Win,Confidence Score
-02,Automated VPC Landing Zone,Migrated from Manual Builds to Modular Infrastructure-as-Code,10/10
-
-| Week | Technical Milestone | Executive Win (Visibility/Communication) | Confidence Score |
-| :--- | :--- | :--- | :--- |
-| **02** | Automated VPC Landing Zone | Migrated from Manual Builds to Modular Infrastructure-as-Code | 7/10 |
 
 
